@@ -1,3 +1,65 @@
-h1{
-    color:red;
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 30rem;
+    background-color: grey;
+    height: 32rem;
+    border-radius: 1rem;
+    
+}
+#display{
+    width: 29rem;
+    height: 5rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+.operadores{
+    width: 7rem;
+    height: 5rem;
+    margin-bottom: 0.2rem;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+    background-color: red;
+    border-radius: 0.5rem;
+    
+
+}
+.numbers{
+    display: flex;
+    width: 7rem;
+    height: 5rem;
+    margin-top: 0.2rem;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+    background-color: blue;
+    border-radius: 0.5rem;
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 1.5rem;
+
+}
+#equal-operator{
+    width: 14rem;
+    background-color: yellow;
+    height: 5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.5rem;
 }
