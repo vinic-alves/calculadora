@@ -1,14 +1,19 @@
 //manipulando a calculadora através do dom
 let display = document.querySelector('span');
 let container = document.getElementById('container');
-number1 =container.childNodes[13];
+let numbers = document.getElementsByClassName('numbers');
+
+
 
 function capturaClick(){
-    addEventListener('click', function(){
-        display.innerText= number1.innerHTML;
+    addEventListener('click', function(e){
+         let mostraNatela = display.innerText = e.target.id;
+         if(mostraNatela === "erase-all"){
+            display.innerText=0;
+        }
+        
     })
+    
 }
+
 capturaClick();
-console.log(number1.content);
-
-
